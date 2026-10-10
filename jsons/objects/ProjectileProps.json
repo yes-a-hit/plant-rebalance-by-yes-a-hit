@@ -1,0 +1,44 @@
+{
+  "objects": [
+    {
+      "objclass": "ProjectileProperties",
+      "aliases": ["pepper"],
+      "objdata": { "Damage": 80 }
+    },
+    {
+      "objclass": "ProjectileProperties",
+      "aliases": ["blooming_heart"],
+      "objdata": { "Damage": 60 }
+    },
+    {
+      "objclass": "ProjectileProperties",
+      "aliases": ["sporeshroom_spore"],
+      "objdata": { "Damage": 80 }
+    },
+    {
+      "objclass": "ProjectileProperties",
+      "aliases": ["dusklobber"],
+      "objdata": { "Damage": 40 }
+    },
+    {
+      "objclass": "ProjectileProperties",
+      "aliases": ["pea_shadow"],
+      "objdata": { "Damage": 30 }
+    },
+    {
+      "objclass": "ProjectileProperties",
+      "aliases": ["darkmatter"],
+      "objdata": { "Damage": 80 }
+    },
+    {
+      "objclass": "ProjectileProperties",
+      "aliases": ["akee"],
+      "objdata": { "Damage": 75 }
+    },
+    {
+      "objclass": "ProjectileProperties",
+      "aliases": ["pea_flame_blue"],
+      "objdata": { "Damage": 40 }
+    }
+  ]
+}

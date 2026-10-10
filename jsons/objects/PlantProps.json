@@ -1,0 +1,211 @@
+{
+  "objects": [
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["slingpea"],
+      "objdata": {
+        "SunCost": 250,
+        "ShootInterval": { "Min": 4.2, "Max": 4.5 }
+      }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["gatling"],
+      "objdata": { "SunCost": 400 },
+      "ShootInterval": { "Min": 1.3, "Max": 1.7 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["bonkchoy"],
+      "objdata": { "SunCost": 100 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["lightningreed"],
+      "objdata": { "SunCost": 150, "Damage": 15 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["primalwallnut"],
+      "objdata": { "Toughness": 5000, "ArmorToughness": 5000 }
+    },
+
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["pvine"],
+      "objdata": { "SunCost": 175 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["coconutcannon"],
+      "objdata": { "SunCost": 300 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["homingthistle"],
+      "objdata": { "SunCost": 225 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["zoybeanpod"],
+      "objdata": { "SunCost": 125 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["sporeshroom"],
+      "objdata": { "SunCost": 200, "Damage":80 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["darkmatterdragonfruit"],
+      "objdata": { "SunCost": 400, "Damage":80 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["lavaguava"],
+      "objdata": { "SunCost": 50 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["empea"],
+      "objdata": { "SunCost": 0 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["scaredyshroom"],
+      "objdata": { "SunCost": 50 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["chomper"],
+      "objdata": { "SunCost": 100 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["lychee"],
+      "objdata": { "SunCost": 125 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["endurian"],
+      "objdata": { "SunCost": 125 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["solarsage"],
+      "objdata": { "SunCost": 0, "Cooldown": 40 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["cherry_bomb"],
+      "objdata": { "SunCost": 125 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["floawerPot"],
+      "objdata": { "SunCost": 50 }
+    },
+
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["twinsunflower"],
+      "objdata": { "SunCost": 100, "Cooldown": 20 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["starfruit"],
+      "objdata": { "SunCost": 125 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["pumpkin"],
+      "objdata": { "SunCost": 100 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["poisonpeashooter"],
+      "objdata": { "SunCost": 200 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["bowlingbulb"],
+      "objdata": { "SunCost": 150 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["guacodile"],
+      "objdata": { "SunCost": 100 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["parsnip"],
+      "objdata": { "SunCost": 125, "DamagePerSnip": 50 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["firepeashooter"],
+      "objdata": { "SunCost": 225 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["akee"],
+      "objdata": { "Damage": 75 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["darkmatter"],
+      "objdata": { "Damage": 80 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["sporeshroom_spore"],
+      "objdata": { "Damage": 80 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["pepper"],
+      "objdata": { "Damage": 80 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["blooming_heart"],
+      "objdata": { "Damage": 60 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["dusklobber"],
+      "objdata": { "Damage": 40 }
+    },
+
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["goldleaf"],
+      "objdata": { "SunCost": 0, "SunCostIncrement": 0, "Cooldown": 20 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["sunbean"],
+      "objdata": { "SunCost": 0, "Cooldown": 30 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["banana"],
+      "objdata": { "SunCost": 400 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["nightshade"],
+      "objdata": { "SunCost": 150, "ShadowPoweredDamageScale": 1 }
+    },
+    {
+      "objclass": "PlantProperties",
+      "aliases": ["shadowpeashooter"],
+      "objdata": {
+        "RayDamage0": 80,
+        "RayDamage1": 80,
+        "RayDamage0UG": 80,
+        "RayDamage1UG": 80
+      }
+    }
+  ]
+}

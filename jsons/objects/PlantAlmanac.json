@@ -1,0 +1,1640 @@
+{
+  "objects": [
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "slingpea"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Magazine Rework",
+              "zh": "改装弹仓"
+            },
+            "DESCRIPTION": {
+              "en": "now loads a mixed magazine: 50% peas, 40% primal peas, 10% coconut bombs. Costs 250 sun and reloads in 4.2-4.5s",
+              "zh": "现在装的不再是单一弹药：五成普通豌豆、四成原始大豌豆、一成椰子炸弹。涨价到 250 阳光，装填间隔收紧到 4.2~4.5 秒"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "peapod"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "increases rate of fire with multiple plantings",
+              "zh": "多次种植，提高单次发射豌豆数量"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Elemental Pods",
+              "zh": "元素豆"
+            },
+            "DESCRIPTION": {
+              "en": "70% plain peas, with 15% each swapped for flaming or frozen peas",
+              "zh": "七成的豌豆照旧，另外各有一成半会换成火焰豌豆或寒冰豌豆，让僵尸一边发烫一边感冒"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "splitpea"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Firing Speed",
+              "zh": "射速"
+            },
+            "DESCRIPTION": {
+              "en": "1x forward, 2x backwards",
+              "zh": "向前方正常，向后方两倍"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Picky Eater",
+              "zh": "前后都讲究"
+            },
+            "DESCRIPTION": {
+              "en": "fires both ways, and 30% of those peas arrive flaming or frozen",
+              "zh": "身前身后都照打，其中三成的子弹会换成火豆或冰豆，前后都不留活路"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "repeater"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Firing Speed",
+              "zh": "射速"
+            },
+            "DESCRIPTION": {
+              "en": "2x",
+              "zh": "2倍"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Hot and Cold",
+              "zh": "冷热双响"
+            },
+            "DESCRIPTION": {
+              "en": "the second pea has a 30% chance of coming flaming or frozen",
+              "zh": "第二颗豌豆有三成几率带火或者带冰，僵尸挨完两下还不知道自己身处哪个季节"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "threepeater"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Range Details",
+              "zh": "具体范围"
+            },
+            "DESCRIPTION": {
+              "en": "three lanes",
+              "zh": "上下和本行"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Side Business",
+              "zh": "三线私活"
+            },
+            "DESCRIPTION": {
+              "en": "three lanes at once, with 30% of the peas swapped for flaming or frozen ones",
+              "zh": "三行一起开火，其中三成的豌豆会换成火豆或冰豆——反正打出去的都是豌豆"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "snowpea"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "chills and damages zombie on impact",
+              "zh": "子弹会对僵尸造成伤害并冰冻"
+            }
+          },
+          {
+            "NAME": {
+              "en": "One in Ten",
+              "zh": "十中有一"
+            },
+            "DESCRIPTION": {
+              "en": "one in ten frozen peas upgrades into a Snowdrop icicle, dealing more damage",
+              "zh": "每十颗冰豆里有一颗会升级成雪滴花的冰锥，伤害更高，冻得更结实"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "peashooter"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "In the Groove",
+              "zh": "手感来了"
+            },
+            "DESCRIPTION": {
+              "en": "10% chance to fire a four-pea burst, 0.15s apart",
+              "zh": "一成几率手感爆发，一口气连吐四颗豌豆，间隔 0.15 秒——它自己也说不清为什么"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "poisonpeashooter"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Extra Goo",
+              "zh": "毒性管够"
+            },
+            "DESCRIPTION": {
+              "en": "20% chance to fire three globs of goo in one go. Costs 200 sun now",
+              "zh": "两成几率一口气喷出三团毒液，够僵尸慢慢消化。涨价到 200 阳光——毒液也是有成本的"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "firepeashooter"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "immune to frost",
+              "zh": "不会被冻结"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "warms nearby plants",
+              "zh": "冰释周围的植物"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Hot Temper",
+              "zh": "暴脾气"
+            },
+            "DESCRIPTION": {
+              "en": "20% chance to loose three blue fire peas at once, up to 120 damage each. Costs 225 sun now",
+              "zh": "脾气比大哥还暴躁：两成几率一次甩出三颗蓝火豌豆，单颗伤害最高 120。涨价到 225 阳光——脾气是要花钱的"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "electricpeashooter"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Leaky",
+              "zh": "漏电"
+            },
+            "DESCRIPTION": {
+              "en": "5% chance to leak a plant-food-grade electric ball, free of charge",
+              "zh": "有 5% 的几率漏出一发叶绿素级别的大电球——纯属电力过剩，不多收费"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "citron"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Overcharged",
+              "zh": "过载"
+            },
+            "DESCRIPTION": {
+              "en": "5% chance to overload straight into a plant-food plasma ball",
+              "zh": "5% 几率把蓄能直接过载成一颗大招级等离子球。柚子不解释，僵尸也不用问"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "gatling"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Firing Speed",
+              "zh": "射速"
+            },
+            "DESCRIPTION": {
+              "en": "4x",
+              "zh": "4倍"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Discount",
+              "zh": "打折"
+            },
+            "DESCRIPTION": {
+              "en": "50 sun cheaper. Still 4x fire rate",
+              "zh": "便宜了 50 阳光。射速依旧是 4 倍——老板只是今天心情不错"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Blue Flame Buffed",
+              "zh": "蓝火加料"
+            },
+            "DESCRIPTION": {
+              "en": "the blue flame peas in its plant food barrage now deal 40 base damage instead of 20",
+              "zh": "大招弹幕里的蓝火豌豆基础伤害从 20 提到 40，四倍射速配上更烫的火，别站在那一行"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "bonkchoy"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "can attack ahead or behind",
+              "zh": "能击打身前和身后的敌人"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Discount",
+              "zh": "降价"
+            },
+            "DESCRIPTION": {
+              "en": "50 sun cheaper. Same pair of fists",
+              "zh": "便宜了 50 阳光。拳头还是那双拳头，只是买得起的人多了"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "lightningreed"
+      ],
+      "objdata": {
+        "Elements": [
+          {
+            "TYPE": "SUNCOST"
+          },
+          {
+            "TYPE": "RECHARGE"
+          },
+          {
+            "TYPE": "TOUGHNESS"
+          },
+          {
+            "TYPE": "DAMAGE",
+            "VALUE": 15
+          },
+          {
+            "TYPE": "RANGE",
+            "SORT": {
+              "en": "Multi-hit",
+              "zh": "多个目标"
+            }
+          },
+          {
+            "TYPE": "SPECIAL",
+            "SORT": {
+              "en": "Zombies Zapped",
+              "zh": "电击僵尸"
+            }
+          },
+          {
+            "TYPE": "FAMILY"
+          }
+        ],
+        "Special": [
+          {
+            "NAME": {
+              "en": "More Juice",
+              "zh": "加价又加电"
+            },
+            "DESCRIPTION": {
+              "en": "costs 150 sun, damage up from 10 to 15",
+              "zh": "涨价到 150 阳光，攻击力从 10 提到 15——多花 25 阳光，多电死几只鸡"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "primalwallnut"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "can take three smashing hits",
+              "zh": "能承受三次砸击"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Thicker Shell",
+              "zh": "更硬了"
+            },
+            "DESCRIPTION": {
+              "en": "toughness raised from 4000 to 5000",
+              "zh": "血量从 4000 提到 5000，护甲同样。反正它也不介意被多啃一会儿"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "pvine"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Usage",
+              "zh": "用途"
+            },
+            "DESCRIPTION": {
+              "en": "boosts Appease-mint Family plants",
+              "zh": "增强豌豆家族植物"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Price Hike",
+              "zh": "涨价"
+            },
+            "DESCRIPTION": {
+              "en": "costs 175 sun now",
+              "zh": "涨价到 175 阳光。想让豌豆家族变强，就得先交这个价"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "coconutcannon"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Usage",
+              "zh": "用途"
+            },
+            "DESCRIPTION": {
+              "en": "tap to fire",
+              "zh": "点击发射"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "on impact, explodes in medium area",
+              "zh": "击中目标时，在中等范围内爆炸"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Discount",
+              "zh": "降价"
+            },
+            "DESCRIPTION": {
+              "en": "100 sun cheaper for 900 damage",
+              "zh": "便宜了 100 阳光。九百点伤害的椰子现在只卖 300——炮弹打折，脑壳也跟着打折"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "homingthistle"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Discount",
+              "zh": "便宜了一点"
+            },
+            "DESCRIPTION": {
+              "en": "costs 225 sun now",
+              "zh": "降到 225 阳光。追踪还是那个追踪，只是便宜了 25"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "zoybeanpod"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Clearance",
+              "zh": "清仓"
+            },
+            "DESCRIPTION": {
+              "en": "costs 125 sun now",
+              "zh": "从 200 直降到 125 阳光，豆腐军团终于买得起了"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "sporeshroom"
+      ],
+      "objdata": {
+        "Elements": [
+          {
+            "TYPE": "SUNCOST"
+          },
+          {
+            "TYPE": "RECHARGE"
+          },
+          {
+            "TYPE": "TOUGHNESS"
+          },
+          {
+            "TYPE": "DAMAGE",
+            "VALUE": 80
+          },
+          {
+            "TYPE": "RANGE",
+            "SORT": {
+              "en": "Lobbed",
+              "zh": "抛物线"
+            }
+          },
+          {
+            "TYPE": "FAMILY"
+          }
+        ],
+        "Special": [
+          {
+            "NAME": {
+              "en": "Worth the Price",
+              "zh": "贵有贵的道理"
+            },
+            "DESCRIPTION": {
+              "en": "costs 200 sun, spore damage up from 50 to 80",
+              "zh": "涨价到 200 阳光，孢子伤害从 50 提到 80——多花 50 阳光，多崩僵尸一脸孢子"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "darkmatterdragonfruit"
+      ],
+      "objdata": {
+        "Elements": [
+          {
+            "TYPE": "SUNCOST"
+          },
+          {
+            "TYPE": "RECHARGE"
+          },
+          {
+            "TYPE": "TOUGHNESS"
+          },
+          {
+            "TYPE": "DAMAGE",
+            "VALUE": 80
+          },
+          {
+            "TYPE": "RANGE",
+            "SORT": {
+              "en": "Straight",
+              "zh": "直线"
+            }
+          },
+          {
+            "TYPE": "FAMILY"
+          }
+        ],
+        "Special": [
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "zombies caught in the dark energy explosion will take higher damage than those who directly contact his projectiles",
+              "zh": "比起直接接触其子弹的僵尸，受到子弹暗能量爆炸波及的僵尸会受到更高的伤害"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "when powered, the more healthy zombies are, the heavier they'll become",
+              "zh": "得到暗影能量时，僵尸越健全，沉重效果越显著"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "heavy zombies' movements become slower and will be harder to knockback",
+              "zh": "沉重的僵尸行动会更缓慢，并且难以击退"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Dark Energy Top-up",
+              "zh": "暗能量充值"
+            },
+            "DESCRIPTION": {
+              "en": "costs 400 sun, dark matter damage doubled from 40 to 80",
+              "zh": "涨价到 400 阳光，暗物质伤害从 40 翻到 80。有点贵——但黑市的东西从不便宜"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "lavaguava"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Usage",
+              "zh": "用法"
+            },
+            "DESCRIPTION": {
+              "en": "single use, on contact",
+              "zh": "一次性使用，接触型"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "erupts, damaging nearby zombies",
+              "zh": "喷发时，对四周的僵尸造成伤害"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "creates a burning lava pool in its tile",
+              "zh": "在原地留下一滩岩浆"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Discount",
+              "zh": "打折"
+            },
+            "DESCRIPTION": {
+              "en": "costs 50 sun now",
+              "zh": "便宜到 50 阳光。岩浆还是那滩岩浆，只是入手门槛低了不少"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "empea"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Usage",
+              "zh": "用途"
+            },
+            "DESCRIPTION": {
+              "en": "single use, instant",
+              "zh": "一次性使用，立刻生效"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "disables machines",
+              "zh": "使机械陷入故障"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Free",
+              "zh": "白送"
+            },
+            "DESCRIPTION": {
+              "en": "sun cost dropped from 25 to 0",
+              "zh": "阳光消耗从 25 降到 0——白给。反正它只干一件事：让机械停摆"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "scaredyshroom"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "stops attacking when zombies appears around",
+              "zh": "有僵尸在附近时停止攻击"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Price Hike",
+              "zh": "涨价"
+            },
+            "DESCRIPTION": {
+              "en": "costs 50 sun now",
+              "zh": "从 25 涨到 50 阳光。胆小是免费的，让别人替你胆小要花钱"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "chomper"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "moderate delay between chomps",
+              "zh": "需要消耗时间咀嚼"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Discount",
+              "zh": "降价"
+            },
+            "DESCRIPTION": {
+              "en": "50 sun cheaper, still swallows 2 zombies at a time",
+              "zh": "便宜了 50 阳光。一次能塞 2 只僵尸、嚼 17 秒——这个价位很划算"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "lychee"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "damages all zombies in a 3x3 area when attacked",
+              "zh": "受到伤害时对 3x3 范围内所有僵尸造成伤害"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Discount",
+              "zh": "降价"
+            },
+            "DESCRIPTION": {
+              "en": "costs 125 sun now",
+              "zh": "降到 125 阳光。挨打时照样把周围 3×3 的僵尸一起扎"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "endurian"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Price Hike",
+              "zh": "涨价"
+            },
+            "DESCRIPTION": {
+              "en": "costs 125 sun now",
+              "zh": "涨到 125 阳光。扎人的味道不错，所以贵了点"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "solarsage"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Usage",
+              "zh": "用途"
+            },
+            "DESCRIPTION": {
+              "en": "single use, activates on contact",
+              "zh": "一次性使用，接触到僵尸时触发"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Weakness",
+              "zh": "弱点"
+            },
+            "DESCRIPTION": {
+              "en": "vulnerable to critters and mechs",
+              "zh": "在动物和机器面前十分脆弱"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Free but Slow",
+              "zh": "先白给，再让你等"
+            },
+            "DESCRIPTION": {
+              "en": "sun cost down to 0, but recharge stretched from 20s to 40s",
+              "zh": "阳光消耗降到 0，但种植冷却从 20 秒拉长到 40 秒——白给的东西，总要你等一等"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "cherry_bomb"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Usage",
+              "zh": "用途"
+            },
+            "DESCRIPTION": {
+              "en": "single use, instant",
+              "zh": "一次性使用，立刻触发"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Discount",
+              "zh": "降价"
+            },
+            "DESCRIPTION": {
+              "en": "costs 125 sun now for 1800 damage",
+              "zh": "降到 125 阳光。1800 点爆炸伤害，现在只收这个价"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "floawerPot"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Usage",
+              "zh": "用途"
+            },
+            "DESCRIPTION": {
+              "en": "carries plants that aren't able to fly",
+              "zh": "承载不会飞的植物"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Plantfood effect",
+              "zh": "叶绿素效果"
+            },
+            "DESCRIPTION": {
+              "en": "click on it to move between different places without carrying any plants",
+              "zh": "点击使之在不承载植物的情况下可以移动"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Half Price",
+              "zh": "半价"
+            },
+            "DESCRIPTION": {
+              "en": "costs 50 sun now",
+              "zh": "从 100 降到 50 阳光。空中花园的入场券，便宜了一半"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "twinsunflower"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Sun Production",
+              "zh": "阳光生产"
+            },
+            "DESCRIPTION": {
+              "en": "double",
+              "zh": "双倍"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Cheaper but Slower",
+              "zh": "便宜但慢"
+            },
+            "DESCRIPTION": {
+              "en": "costs 100 sun, but recharge stretched from 10s to 20s",
+              "zh": "降到 100 阳光，但种植冷却从 10 秒拉长到 20 秒——省下的阳光，用时间还"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "starfruit"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Discount",
+              "zh": "降价"
+            },
+            "DESCRIPTION": {
+              "en": "costs 125 sun now",
+              "zh": "降到 125 阳光。五个方向一起打，价格反而更低了"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "pumpkin"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Discount",
+              "zh": "降价"
+            },
+            "DESCRIPTION": {
+              "en": "50 sun cheaper, still 4000 armour",
+              "zh": "便宜了 50 阳光。4000 点护甲替植物挡刀从不讲价，现在更划算了"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "bowlingbulb"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Damage Details",
+              "zh": "具体伤害"
+            },
+            "DESCRIPTION": {
+              "en": "larger bulbs do more damage",
+              "zh": "越大的保龄球，造成的伤害越大"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Discount",
+              "zh": "降价"
+            },
+            "DESCRIPTION": {
+              "en": "costs 150 sun now",
+              "zh": "降到 150 阳光。球越滚越大，价格越来越小"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "guacodile"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Usage",
+              "zh": "用法"
+            },
+            "DESCRIPTION": {
+              "en": "plant is lost on rushing attack",
+              "zh": "冲出时即失去这株植物"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "can be planted on water",
+              "zh": "可以被种植在水中"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Discount",
+              "zh": "降价"
+            },
+            "DESCRIPTION": {
+              "en": "costs 100 sun now",
+              "zh": "降到 100 阳光。平时吐籽，急眼了直接冲出去——现在这个价，冲就冲吧"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "parsnip"
+      ],
+      "objdata": {
+        "Elements": [
+          {
+            "TYPE": "SUNCOST"
+          },
+          {
+            "TYPE": "RECHARGE"
+          },
+          {
+            "TYPE": "TOUGHNESS"
+          },
+          {
+            "TYPE": "DAMAGE",
+            "VALUE": 50
+          },
+          {
+            "TYPE": "RANGE",
+            "SORT": {
+              "en": "Close",
+              "zh": "靠近时"
+            }
+          },
+          {
+            "TYPE": "FAMILY"
+          }
+        ],
+        "Special": [
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "charges down the lane when defeated and snips zombies in front",
+              "zh": "被啃食完毕后沿着本行冲出，掐前方的僵尸"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Cheaper, Softer",
+              "zh": "降价，但掐得轻了"
+            },
+            "DESCRIPTION": {
+              "en": "costs 125 sun, but each snip drops from 70 to 50",
+              "zh": "降到 125 阳光，代价是每次掐击从 70 降到 50——便宜 25 阳光，少掐 20 点"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "pepperpult"
+      ],
+      "objdata": {
+        "Elements": [
+          {
+            "TYPE": "SUNCOST"
+          },
+          {
+            "TYPE": "RECHARGE"
+          },
+          {
+            "TYPE": "TOUGHNESS"
+          },
+          {
+            "TYPE": "DAMAGE",
+            "VALUE": 80
+          },
+          {
+            "TYPE": "RANGE",
+            "SORT": {
+              "en": "Lobbed",
+              "zh": "抛物线"
+            }
+          },
+          {
+            "TYPE": "FAMILY"
+          }
+        ],
+        "Special": [
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "immune to frost",
+              "zh": "不会被冻结"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "warms nearby plants more frequently",
+              "zh": "更快地冰释周围的植物"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Back from India",
+              "zh": "印度进修"
+            },
+            "DESCRIPTION": {
+              "en": "back from a course in India, it is spicier now, but not by much",
+              "zh": "甜椒投手在印度进修完后，味道辣了点，但不多"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "shadowpeashooter"
+      ],
+      "objdata": {
+        "Elements": [
+          {
+            "TYPE": "SUNCOST"
+          },
+          {
+            "TYPE": "RECHARGE"
+          },
+          {
+            "TYPE": "TOUGHNESS"
+          },
+          {
+            "TYPE": "DAMAGE",
+            "VALUE": 30
+          },
+          {
+            "TYPE": "RANGE",
+            "SORT": {
+              "en": "Straight/Piercing",
+              "zh": "直线/穿透"
+            }
+          },
+          {
+            "TYPE": "FAMILY"
+          }
+        ],
+        "Special": [
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "fires piercing, slowing bolts when powered",
+              "zh": "暗影状态下，发射穿透的、减速效果的电光"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "hides and swallows zombies that approach",
+              "zh": "能隐蔽自身并吞噬靠近的僵尸"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Sneaky Buff",
+              "zh": "偷偷加量"
+            },
+            "DESCRIPTION": {
+              "en": "shadow peas quietly gained 10 damage each",
+              "zh": "暗影里的豌豆悄悄长了 10 点伤害。没人看见，但它自己心里有数"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Thicker Ray",
+              "zh": "电光加粗"
+            },
+            "DESCRIPTION": {
+              "en": "the penetrating electric ray now deals 80 damage per shot (was 40, and 70 on the second shot)",
+              "zh": "穿透电光单发伤害提到 80（原来是 40，连发第二发 70）。它嘴里那颗豌豆只有 30，别搞混"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "bloominghearts"
+      ],
+      "objdata": {
+        "Elements": [
+          {
+            "TYPE": "SUNCOST"
+          },
+          {
+            "TYPE": "RECHARGE"
+          },
+          {
+            "TYPE": "TOUGHNESS"
+          },
+          {
+            "TYPE": "DAMAGE",
+            "VALUE": 60
+          },
+          {
+            "TYPE": "RANGE",
+            "SORT": {
+              "en": "Lobbed",
+              "zh": "抛物线"
+            }
+          },
+          {
+            "TYPE": "FAMILY"
+          }
+        ],
+        "Special": [
+          {
+            "NAME": {
+              "en": "Heavier Heartbeat",
+              "zh": "心跳加重"
+            },
+            "DESCRIPTION": {
+              "en": "the thrown heart beats 20 points harder",
+              "zh": "抛出去的心多跳了 20 下。对僵尸来说，心动是真的要命"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "dusklobber"
+      ],
+      "objdata": {
+        "Elements": [
+          {
+            "TYPE": "SUNCOST"
+          },
+          {
+            "TYPE": "RECHARGE"
+          },
+          {
+            "TYPE": "TOUGHNESS"
+          },
+          {
+            "TYPE": "DAMAGE",
+            "VALUE": 40
+          },
+          {
+            "TYPE": "RANGE",
+            "SORT": {
+              "en": "Lobbed",
+              "zh": "抛物线"
+            }
+          },
+          {
+            "TYPE": "AREA",
+            "SORT": {
+              "en": "3x3",
+              "zh": "3x3 范围"
+            }
+          },
+          {
+            "TYPE": "FAMILY"
+          }
+        ],
+        "Special": [
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "lob buds down 3 lanes when powered",
+              "zh": "得到暗影能量时能沿着三行投掷花蕾"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Dusk Is Not Gentle",
+              "zh": "黄昏不温柔"
+            },
+            "DESCRIPTION": {
+              "en": "bud damage rose from 5 to 40",
+              "zh": "投出去的花蕾从 5 点伤害涨到 40 点。黄昏时分，离它远点"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "akee"
+      ],
+      "objdata": {
+        "Elements": [
+          {
+            "TYPE": "SUNCOST"
+          },
+          {
+            "TYPE": "RECHARGE"
+          },
+          {
+            "TYPE": "TOUGHNESS"
+          },
+          {
+            "TYPE": "DAMAGE",
+            "VALUE": 75
+          },
+          {
+            "TYPE": "RANGE",
+            "SORT": {
+              "en": "Lobbed",
+              "zh": "抛物线"
+            }
+          },
+          {
+            "TYPE": "SPECIAL",
+            "SORT": {
+              "en": "Shot Bounces",
+              "zh": "投掷物反弹"
+            }
+          },
+          {
+            "TYPE": "FAMILY"
+          }
+        ],
+        "Special": [
+          {
+            "NAME": {
+              "en": "Bounces Harder",
+              "zh": "弹得更狠"
+            },
+            "DESCRIPTION": {
+              "en": "the bouncing fruit hits 15 harder",
+              "zh": "反弹的果子重了 15 点伤害。砸到谁头上，谁认命"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "goldleaf"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Usage",
+              "zh": "用法"
+            },
+            "DESCRIPTION": {
+              "en": "single use, instant",
+              "zh": "一次性使用，立刻生效"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Free Forever",
+              "zh": "永久免费"
+            },
+            "DESCRIPTION": {
+              "en": "now costs 0 sun and never grows more expensive, but the recharge is stretched to 20s",
+              "zh": "阳光消耗降到 0，而且再也不会越种越贵；代价是种植冷却拉长到 20 秒——白拿一块金砖，只是要你多等一会儿"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "tallnut"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "blocks launched imps",
+              "zh": "挡住丢出的小鬼"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Last Slam",
+              "zh": "倒也要砸一下"
+            },
+            "DESCRIPTION": {
+              "en": "when killed, it leaps up and slams down for 1800 damage across one square on each side, just like a Squash",
+              "zh": "被啃倒的瞬间会弹起来狠狠砸下，砸中左右各一格、造成 1800 点伤害——死也要带几只一起走"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "sunbean"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Free Bean",
+              "zh": "白送的豆子"
+            },
+            "DESCRIPTION": {
+              "en": "sun cost dropped from 50 to 0, but the recharge is stretched from 20s to 30s",
+              "zh": "阳光消耗从 50 降到 0，代价是种植冷却从 20 秒拉长到 30 秒——反正它赚阳光靠的是被僵尸啃"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "banana"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Usage",
+              "zh": "用途"
+            },
+            "DESCRIPTION": {
+              "en": "tap to arm, tap on target tile to fire",
+              "zh": "点击瞄准，再点击目标格子发射"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Range",
+              "zh": "范围"
+            },
+            "DESCRIPTION": {
+              "en": "anywhere on lawn",
+              "zh": "场地内任意一格"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "on impact, explodes in small area",
+              "zh": "子弹爆炸时，对小范围造成巨大伤害"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Discount",
+              "zh": "打折"
+            },
+            "DESCRIPTION": {
+              "en": "100 sun cheaper: 400 sun for a 1200 damage rocket",
+              "zh": "便宜了 100 阳光。1200 点爆炸伤害的火箭现在只卖 400——炸完这一发就算回本"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objclass": "PlantAlmanacProperties",
+      "aliases": [
+        "nightshade"
+      ],
+      "objdata": {
+        "Special": [
+          {
+            "NAME": {
+              "en": "Special",
+              "zh": "特点"
+            },
+            "DESCRIPTION": {
+              "en": "hurls and regrows leaves when powered",
+              "zh": "得到暗影能量时能重新长出叶片，并远程抛出"
+            }
+          },
+          {
+            "NAME": {
+              "en": "Shadow Without Penalty",
+              "zh": "暗影不打折"
+            },
+            "DESCRIPTION": {
+              "en": "costs 150 sun now, and its leaves no longer lose damage while shadow powered",
+              "zh": "涨价到 150 阳光。换来的是暗影形态下菜叶不再只打出半价伤害——暗处做买卖，这个价不算贵"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "plant-rebalance-by-yes-a-hit",
+  "version": "4.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dev-only manifest for the Plant Rebalance by yes-a-hit GP-Next mod. Not shipped in the release ZIP.",
+  "scripts": {
+    "test": "node tests/run.mjs",
+    "pack": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/pack.ps1"
+  }
+}
