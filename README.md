@@ -184,11 +184,7 @@
 电能豌豆 / 充能柚子 / 高坚果：概率把弹种换成 `PeaTypePlantfood`。
 **只换类型，不触发无敌效果。**
 
-### D. 高坚果死亡亡语
-
-高坚果倒下时会**弹起砸地**，对落点范围内的僵尸造成伤害。
-
-### E. 数值调整（39 条数据补丁）
+### D. 数值调整（39 条数据补丁）
 
 常用的几项：
 
@@ -207,7 +203,7 @@
 完整清单见 [`jsons/objects/PlantProps.json`](jsons/objects/PlantProps.json)（39 条）
 与 [`jsons/objects/ProjectileProps.json`](jsons/objects/ProjectileProps.json)（8 条）。
 
-### F. 图鉴同步
+### E. 图鉴同步
 
 上面每一条改动都写进了游戏内图鉴 —— 46 株植物各新增一条「平衡改动」说明，
 并按新数值修正了图鉴里显示的伤害数字。看
