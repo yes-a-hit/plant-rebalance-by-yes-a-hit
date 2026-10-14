@@ -1,0 +1,19 @@
+{
+    "uuid": "yes-a-hit.plant-rebalance",
+    "name": "Plant Rebalance by yes-a-hit",
+    "version": "4.1.24",
+    "packFormatVersion": 1,
+    "apiVersion": 2,
+    "minGpNextVersion": "1.5.0-pre.1",
+    "author": "yes-a-hit",
+    "description": "面向 PvZ2 Gardendless 的综合平衡包：11 种植物加入概率弹种／多发／开大，高坚果加入「死亡亡语·弹起砸地」，33 种植物的价格／伤害／血量调整，全量改动同步写入图鉴（46 株各新增一条「平衡改动」说明，并按新数值修正图鉴伤害值）。另附数条由代码串扰产生、已被保留为设计一部分的「特性」，详见 README。需要开启 JavaScript 模组。",
+    "capabilities": [
+        "js"
+    ],
+    "js": {
+        "entry": "scripts/main.js",
+        "startup": true,
+        "reloadable": false,
+        "requiresTrustedExecution": true
+    }
+}
